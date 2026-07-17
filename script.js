@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', () => {
-    // Mengambil data performa navigasi halaman
     const navigationEntries = performance.getEntriesByType('navigation');
     
     if (navigationEntries.length > 0) {
