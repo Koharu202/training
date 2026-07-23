@@ -9,3 +9,9 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+const mybutton = document.getElementById('button');
+
+mybutton.addEventListener("click", function() {
+    alert("SELAMAT KAMU KENA PRANK!")
+})
