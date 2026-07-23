@@ -11,7 +11,12 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 const mybutton = document.getElementById('button');
+const mybutton1 = document.getElementById('button1');
 
 mybutton.addEventListener("click", function() {
     alert("SELAMAT KAMU KENA PRANK!")
+})
+
+mybutton1.addEventListener("click", () => {
+    alert("BEGO, UDAH DITIPU KENA LAGI!")
 })
